@@ -2,14 +2,18 @@ BEGIN ALPHA
 a
 b
 c
+x
+i
 END ALPHA
 
 BEGIN RULES
-a -> bca
-b -> abc
-c -> bbbH
+a -> bac
+b -> aca
+c -> axi
+x -> i
+i -> H
 END RULES
 
 BEGIN INITIALSTATE
-baa
+abacaxi
 END INITIALSTATE
