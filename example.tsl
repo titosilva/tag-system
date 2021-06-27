@@ -1,0 +1,15 @@
+BEGIN ALPHA
+a
+b
+c
+END ALPHA
+
+BEGIN RULES
+a -> bca
+b -> abc
+c -> bbbH
+END RULES
+
+BEGIN INITIALSTATE
+baa
+END INITIALSTATE
